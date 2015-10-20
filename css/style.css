@@ -13,6 +13,11 @@ a {
     color: #66AFE0;
 }
 
+a:hover {
+  color: #CDE5F5;
+  text-decoration: none;
+}
+
 h1 {
   font-weight: 400;
 }
