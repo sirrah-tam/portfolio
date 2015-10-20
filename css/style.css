@@ -41,6 +41,18 @@ blockquote footer {
   margin-right: 10px;
 }
 
+#tthProf {
+  padding: 15px;
+}
+
+#tthProf:hover {
+  cursor: pointer;
+}
+
+.toggle {
+  display: none;
+}
+
 .total {
   margin-top: 3px;
 }
