@@ -8,7 +8,7 @@
 	<link href="src/bootstrap/dist/css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="src/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-static-top">
@@ -62,13 +62,20 @@
 				</div>
 				<hr />
 				<div class="toggle">
-					<p id="totalpts"></p>
-					<p class="total">Total Points</p>
-					<h3><i class="fa fa-circle html"></i>HTML: <span id="htmlpts"></span></h3>
-					<h3><i class="fa fa-circle css"></i>CSS: <span id="csspts"></span></h3>
-					<h3><i class="fa fa-circle js"></i>JavaScript: <span id="jspts"></span></h3>
-					<a href="https://teamtreehouse.com/matharris"><h4>See more at Team Treehouse</h4></a>
-					<hr />
+					<div class="col-md-6">
+						<p id="totalpts"></p>
+						<p class="total">Total Points</p>
+						<h3><i class="fa fa-circle html"></i>HTML: <span id="htmlpts"></span></h3>
+						<h3><i class="fa fa-circle css"></i>CSS: <span id="csspts"></span></h3>
+						<h3><i class="fa fa-circle js"></i>JavaScript: <span id="jspts"></span></h3>
+						<a href="https://teamtreehouse.com/matharris"><h4>See more at Team Treehouse</h4></a>
+					</div>
+					<div class="col-md-6">
+						<div id="badges">
+							<h3>Recent Badges</h3>
+						</div>
+					</div>
+					<hr class="col-md-12" />
 				</div>
 			</div>
 		</div>
