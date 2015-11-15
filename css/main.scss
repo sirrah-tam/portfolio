@@ -55,6 +55,10 @@ blockquote footer {
   display: none;
 }
 
+.points h4 {
+  margin-top: 30px;
+}
+
 .total {
   margin-top: 3px;
 }
@@ -77,9 +81,28 @@ blockquote footer {
   color: #C25975;
 }
 
-.tthbadge {
-  height: 125px;
+.wp {
+  color: #838CC7;
+}
+
+.devtools {
+  color: #637a91;
+}
+
+.php {
+  color: #7D669E;
+}
+
+.tthbadge img {
+  height: 80px;
   margin: 5px 0;
+}
+
+.tthbadge p {
+  display: inline-block;
+  margin-left: 30px;
+  width: 60%;
+  vertical-align: middle;
 }
 
 #badges h3 {
