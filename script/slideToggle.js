@@ -1,5 +1,5 @@
 $(document).on('ready', function() {
   $('#tthProf').on('click', function() {
-    $('.tthProf').toggleClass('is-active');
+    $('.toggleBox').toggleClass('is-active');
   });
 });
