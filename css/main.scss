@@ -1,6 +1,12 @@
 @import "_variables.scss";
 @import "_base.scss";
+@import "_layout.scss";
+@import "_module.scss";
 @import "_state.scss";
+
+.navbar {
+  margin-bottom: 0;
+}
 
 .contact li {
   list-style: none;

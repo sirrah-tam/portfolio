@@ -17,6 +17,9 @@ a {
 h1 {
   font-weight: 400; }
 
+h2, h3 {
+  margin-top: 0; }
+
 blockquote {
   font-size: 1.5em;
   line-height: 1.4em;
@@ -25,8 +28,21 @@ blockquote {
 blockquote footer {
   color: #CDE5F5; }
 
-.toggle {
+section {
+  padding: 30px 0;
+  border-bottom: 5px solid #eee; }
+
+.intro {
+  background-color: #052F7B; }
+
+.tthProf {
   display: none; }
+
+.is-active {
+  display: block; }
+
+.navbar {
+  margin-bottom: 0; }
 
 .contact li {
   list-style: none;
