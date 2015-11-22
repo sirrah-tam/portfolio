@@ -32,14 +32,8 @@ section {
   padding: 30px 0;
   border-bottom: 5px solid #eee; }
 
-.intro {
-  background-color: #052F7B; }
-
-.tthProf {
+.toggleBox {
   display: none; }
-
-.is-active {
-  display: block; }
 
 .navbar {
   margin-bottom: 0; }
@@ -67,6 +61,34 @@ section {
   font-weight: 800;
   margin-bottom: 0; }
 
+.tthbadge img {
+  height: 80px;
+  margin: 5px 0; }
+
+.tthbadge p {
+  display: inline-block;
+  margin-left: 30px;
+  width: 60%;
+  vertical-align: middle; }
+
+#badges h3 {
+  margin-top: 0; }
+
+.is-active {
+  display: block; }
+
+.intro {
+  background-color: #135; }
+
+.about {
+  background-color: #246; }
+
+.tthProf {
+  background-color: #468; }
+
+.contact {
+  background-color: #357; }
+
 .html {
   color: #39add1; }
 
@@ -84,18 +106,5 @@ section {
 
 .php {
   color: #7D669E; }
-
-.tthbadge img {
-  height: 80px;
-  margin: 5px 0; }
-
-.tthbadge p {
-  display: inline-block;
-  margin-left: 30px;
-  width: 60%;
-  vertical-align: middle; }
-
-#badges h3 {
-  margin-top: 0; }
 
 /*# sourceMappingURL=main.css.map */

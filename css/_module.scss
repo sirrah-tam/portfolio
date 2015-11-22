@@ -1,7 +1,53 @@
-.intro {
-	background-color: #052F7B;
+.toggleBox {
+	display: none;
 }
 
-.tthProf {
-	display: none;
+.navbar {
+  margin-bottom: 0;
+}
+
+.contact li {
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+#tthProf {
+  padding: 15px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.points h4 {
+  margin-top: 30px;
+}
+
+.total {
+  margin-top: 3px;
+}
+
+#totalpts {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+.tthbadge img {
+  height: 80px;
+  margin: 5px 0;
+}
+
+.tthbadge p {
+  display: inline-block;
+  margin-left: 30px;
+  width: 60%;
+  vertical-align: middle;
+}
+
+#badges h3 {
+  margin-top: 0;
 }
