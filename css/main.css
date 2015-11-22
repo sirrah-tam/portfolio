@@ -33,7 +33,8 @@ section {
   border-bottom: 5px solid #eee; }
 
 .toggleBox {
-  display: none; }
+  display: none;
+  padding: 15px 0; }
 
 .navbar {
   margin-bottom: 0; }
