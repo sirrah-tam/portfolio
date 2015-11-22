@@ -25,6 +25,9 @@ blockquote {
 blockquote footer {
   color: #CDE5F5; }
 
+.toggle {
+  display: none; }
+
 .contact li {
   list-style: none;
   line-height: 1.5em; }
@@ -36,9 +39,6 @@ blockquote footer {
   padding: 15px; }
   #tthProf:hover {
     cursor: pointer; }
-
-.toggle {
-  display: none; }
 
 .points h4 {
   margin-top: 30px; }

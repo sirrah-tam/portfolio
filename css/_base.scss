@@ -1,0 +1,34 @@
+body {
+    background: #1E4998;
+    color: $primary_color;
+    font: {
+      family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      weight: lighter;
+      size: 18px;
+    }
+    text-decoration: none;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #66AFE0;
+    &:hover {
+      color: $primary_color;
+      text-decoration: none;
+    }
+}
+
+h1 {
+  font-weight: 400;
+}
+
+blockquote {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-top: 5%;
+}
+
+blockquote footer {
+  color: $primary_color;
+}

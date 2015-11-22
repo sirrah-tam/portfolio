@@ -1,39 +1,6 @@
 @import "_variables.scss";
-
-body {
-    background: #1E4998;
-    color: $primary_color;
-    font: {
-      family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-      weight: lighter;
-      size: 18px;
-    }
-    text-decoration: none;
-    line-height: 1.6em;
-}
-
-a {
-    text-decoration: none;
-    color: #66AFE0;
-    &:hover {
-      color: $primary_color;
-      text-decoration: none;
-    }
-}
-
-h1 {
-  font-weight: 400;
-}
-
-blockquote {
-  font-size: 1.5em;
-  line-height: 1.4em;
-  margin-top: 5%;
-}
-
-blockquote footer {
-  color: $primary_color;
-}
+@import "_base.scss";
+@import "_state.scss";
 
 .contact li {
   list-style: none;
@@ -51,10 +18,6 @@ blockquote footer {
   }
 }
 
-.toggle {
-  display: none;
-}
-
 .points h4 {
   margin-top: 30px;
 }
@@ -69,29 +32,17 @@ blockquote footer {
   margin-bottom: 0;
 }
 
-.html {
-  color: #39add1;
-}
+.html { color: #39add1; }
 
-.css {
-  color: #3079ab;
-}
+.css { color: #3079ab; }
 
-.js {
-  color: #C25975;
-}
+.js { color: #C25975; }
 
-.wp {
-  color: #838CC7;
-}
+.wp { color: #838CC7; }
 
-.devtools {
-  color: #637a91;
-}
+.devtools { color: #637a91; }
 
-.php {
-  color: #7D669E;
-}
+.php { color: #7D669E; }
 
 .tthbadge img {
   height: 80px;
