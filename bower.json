@@ -1,0 +1,24 @@
+{
+  "name": "sirrahtam",
+  "description": "First versions of my website using npm, gulp, and bootstrap",
+  "main": "index.html",
+  "authors": [
+    "Matthew Harris <hurris88@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sirrah-tam/portfolio",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}

@@ -1,0 +1,123 @@
+.header {
+	overflow: hidden;
+
+	h2 {
+		margin-top: 30px;
+		text-align: center;
+
+		@media screen and (min-width: 600px) {
+			& {
+				font-size: 1.8em;
+			}
+		}
+	}
+
+	i {			
+		float: right;
+		margin-top: 45px;
+		font-size: 3em;
+		line-height: 1rem;
+	}
+
+	&:hover {
+		cursor: pointer;
+		color: #fff;
+	}
+}
+
+.profile {
+	display: none;
+	padding: 15px 0;
+
+	h4 {
+ 		margin-top: 30px;
+  	}
+
+ 	ul {
+  		padding-left: 0;
+  	}
+
+  	li {
+	  	display: block;
+		list-style: none;
+		font-size: 1.5em;
+		line-height: 2em;
+	}
+
+	span {
+  		font-weight: 700;
+  	}
+
+  	img {
+	  height: 80px;
+	  margin: 5px 0;
+	}
+}
+
+.badges {
+	margin-top: 15px;
+
+	li {
+		font-size: 1em;
+		font-weight: 700;
+	}
+
+	a {
+		display: block;
+		margin: 15px 0;
+		color: $primary_color;
+
+		&:hover,
+		&:focus {
+			color: #fff;
+		}
+	}
+
+	img {
+		margin-right: 5px;
+	}
+}
+
+.totalpts {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+// Team Treehouse Profile
+
+
+.total { margin-top: 3px; }
+
+.tthbadge {
+	p {
+	  display: inline-block;
+	  margin-left: 30px;
+	  width: 60%;
+	  vertical-align: middle;
+	}
+}
+
+#badges h3 {  margin-top: 0; }
+
+.fa {  margin-right: 10px; }
+
+// Code School Report Card
+.cdschool {
+	h4 {
+		a {
+			color: $primary_color;
+			
+			&:hover,
+			&:focus {
+				color: #fff;
+			}
+		}
+	}
+}
+
+// Contact Me section
+.contact li {
+  list-style: none;
+  line-height: 1.5em;
+}

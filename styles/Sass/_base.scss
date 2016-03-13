@@ -1,0 +1,53 @@
+body {
+    background: #1E4998;
+    color: $primary_color;
+    
+    font: {
+      family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      weight: lighter;
+      size: 20px;
+    }
+
+    text-decoration: none;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #66AFE0;
+    font-weight: 700;
+
+    &:hover,
+    &:focus {
+      color: $primary_color;
+      text-decoration: none;
+    }
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+blockquote {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-top: 5%;
+}
+
+blockquote footer {
+  color: $primary_color;
+}
