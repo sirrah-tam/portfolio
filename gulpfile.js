@@ -1,5 +1,5 @@
 // Include gulp
-var gulp = require('gulp'); 
+var gulp = require('gulp');
 
 // Include Our Plugins
 var plumber      = require('gulp-plumber'); // To handle error events
@@ -16,7 +16,7 @@ var notify       = require("gulp-notify"); // Ability to send error notification
 
 // Config object to hold directories
 var config = {
-     sassPath: 'styles/Sass',
+     sassPath: 'styles/scss',
      bowerDir: 'bower_components' 
 };
 
@@ -97,7 +97,7 @@ gulp.task('scripts', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-	gulp.watch('scripts/components/*.js', ['lint', 'scripts']);    
+	gulp.watch('scripts/components/*.js', ['lint', 'scripts']);
 	gulp.watch(['styles/Sass/*.scss'], ['sass']);
 });
 

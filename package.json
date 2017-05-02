@@ -4,6 +4,7 @@
   "description": "First versions of my website using npm, gulp, and bootstrap",
   "main": "gulpfile.js",
   "dependencies": {
+    "bower": "^1.8.0",
     "gulp": "^3.9.0"
   },
   "devDependencies": {
