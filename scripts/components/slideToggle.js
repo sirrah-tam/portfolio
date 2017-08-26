@@ -1,4 +1,8 @@
 $(document).on('ready', function() {
+	// Slide toggle for teamtreehouse header
+	$('.projects .header').on('click', function() {
+		$('.projects .profile').slideToggle();
+	});
 
 	// Slide toggle for teamtreehouse header
 	$('.tth .header').on('click', function() {

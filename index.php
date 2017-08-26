@@ -39,7 +39,7 @@
 
 				<p>I have learned by using online resources such as <a href="https://teamtreehouse.com/" target="_blank">Team Treehouse</a>, <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>, <a href="https://www.codeschool.com/" target="_blank">CodeSchool</a>, and <a href="http://www.theodinproject.com/" target="_blank">The Odin Project</a> and also attended an in person JavaScript Course at <a href="https://generalassemb.ly/" target="_blank">General Assembly DC</a>.</p>
 
-				<p>2+ year experience in HTML, CSS, JavaScript with working knowledge of PHP, WordPress development, version control using Git (GitHub and Bitbucket).</p>
+				<p>3+ year experience in HTML, CSS, JavaScript with working knowledge of PHP, WordPress development, version control using Git (GitHub and Bitbucket).</p>
 			</div>
 		</div>
 	</section>

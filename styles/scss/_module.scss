@@ -12,7 +12,11 @@
 		}
 	}
 
-	i {			
+	.fa-code {
+		font-size: 9rem;
+	}
+
+	.fa-caret-down {
 		float: right;
 		margin-top: 45px;
 		font-size: 3em;
@@ -107,7 +111,7 @@
 	h4 {
 		a {
 			color: $primary_color;
-			
+
 			&:hover,
 			&:focus {
 				color: #fff;

@@ -13,17 +13,27 @@ var uglify       = require('gulp-uglify'); // Pass through Uglification
 var rename       = require('gulp-rename'); // Rename files after compilation
 var autoprefixer = require('gulp-autoprefixer'); // Automatically add CSS prefixes for greater CSS3 browser support
 var notify       = require("gulp-notify"); // Ability to send error notifications
+var browserSync  = require("browser-sync"); // Sets up local dev testing
+
+// Static server
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+});
 
 // Config object to hold directories
 var config = {
-     sassPath: 'styles/scss',
-     bowerDir: 'bower_components' 
+    sassPath: 'styles/scss',
+    bowerDir: 'bower_components'
 };
 
 // Font Awesome
-gulp.task('icons', function() { 
-    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*') 
-        .pipe(gulp.dest('./fonts')); 
+gulp.task('icons', function() {
+    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*')
+        .pipe(gulp.dest('./fonts'));
 });
 
 // Error handler
@@ -49,13 +59,13 @@ gulp.task('sass', function() {
 		.pipe(plumber())
 		.pipe(sourcemaps.init())
 		.pipe(sass({
-             style: 'compressed',
-             loadPath: [
+            style: 'compressed',
+            loadPath: [
 				config.sassPath,
-                 config.bowerDir + '/bootstrap-sass/assets/stylesheets/*',
-                 config.bowerDir + '/font-awesome/scss'
-             ]
-         }) )
+                config.bowerDir + '/bootstrap-sass/assets/stylesheets/*',
+                config.bowerDir + '/font-awesome/scss'
+            ]
+        }))
 		.pipe(autoprefixer({
 			browsers: ['last 5 versions'],
 		}))
@@ -98,8 +108,8 @@ gulp.task('scripts', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
 	gulp.watch('scripts/components/*.js', ['lint', 'scripts']);
-	gulp.watch(['styles/Sass/*.scss'], ['sass']);
+	gulp.watch(['styles/scss/*.scss'], ['sass']);
 });
 
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch', 'icons']);
+gulp.task('default', ['lint', 'sass', 'scripts', 'watch', 'icons', 'browser-sync']);
