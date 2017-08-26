@@ -2,13 +2,6 @@
 	margin-bottom: 0;
 }
 
-.intro {
-	background-image: url(../img/intro-bg.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-
 section {
 	@extend .container-fluid;
   	padding: 30px 0;

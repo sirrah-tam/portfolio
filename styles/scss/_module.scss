@@ -58,6 +58,35 @@
 	}
 }
 
+.projects {
+	background-color: #31708f;
+
+	.profile {
+		padding-top: 30px;
+	}
+}
+
+.project {
+	margin-bottom: 30px;
+
+	figure {
+		min-height: 125px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	img {
+		width: auto;
+		height: 115px;
+		margin: 0 auto;
+	}
+
+	h3 {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
 .badges {
 	margin-top: 15px;
 

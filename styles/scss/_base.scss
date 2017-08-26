@@ -1,7 +1,7 @@
 body {
     background: #1E4998;
     color: $primary_color;
-    
+
     font: {
       family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
       weight: lighter;
@@ -27,6 +27,7 @@ a {
 h1 {
   font-weight: 400;
   font-size: 2em;
+  color: #fff;
 }
 
 h2 {
