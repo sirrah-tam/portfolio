@@ -1,26 +1,58 @@
 .header {
 	overflow: hidden;
 
-	h2 {
-		margin-top: 30px;
-		text-align: center;
+	a {
+		display: block;
+
+		img {
+			width: 100%;
+
+			@media screen and (min-width: 600px) {
+				max-width: 100px;
+			}
+		}
+	}
+
+	.panel-title {
+		position: relative;
+		margin-top: 15px;
+		padding-right: 10px;
+		font-size: 1.2rem;
+
+
+		a {
+			font-weight: 700;
+		}
 
 		@media screen and (min-width: 600px) {
-			& {
-				font-size: 1.8em;
+			margin-top: 30px;
+			font-size: 2.25rem;
+
+			a {
+				font-weight: 400;
 			}
 		}
 	}
 
 	.fa-code {
-		font-size: 9rem;
+		font-size: 3rem;
+
+		@media screen and (min-width: 600px) {
+			font-size: 6rem;
+		}
 	}
 
 	.fa-caret-down {
-		float: right;
-		margin-top: 45px;
-		font-size: 3em;
-		line-height: 1rem;
+		margin: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 1.6rem;
+
+		@media screen and (min-width: 600px) {
+			font-size: 1.8em;
+			top: -15px;
+		}
 	}
 
 	&:hover {
@@ -115,6 +147,7 @@
 	a {
 		display: block;
 		margin: 15px 0;
+		font-size: 1.25rem;
 		color: $primary_color;
 
 		&:hover,
@@ -125,6 +158,7 @@
 
 	img {
 		margin-right: 5px;
+		max-width: 100px;
 	}
 }
 
@@ -167,7 +201,13 @@
 }
 
 // Contact Me section
-.contact li {
-  list-style: none;
-  line-height: 1.5em;
+.contact {
+	ul {
+		padding-left: 0;
+	}
+
+	li {
+	  list-style: none;
+	  line-height: 1.5em;
+	}
 }

@@ -73,8 +73,7 @@ gulp.task('sass', function() {
 		.pipe(sass())
 		.pipe(cssmin())
 		.pipe(sourcemaps.write('./maps'))
-		.pipe(gulp.dest('./styles'))
-		.pipe(notify({message: 'Sass complilation is complete!', onLast: true}));
+		.pipe(gulp.dest('./styles'));
 });
 
 gulp.task('images', function() {
@@ -93,6 +92,7 @@ gulp.task('images', function() {
 gulp.task('scripts', function() {
 	gulp.src([
 		config.bowerDir + '/jquery/dist/jquery.js',
+        config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
 		"scripts/components/*.js"
 	])
 		.pipe(plumber())
@@ -100,8 +100,7 @@ gulp.task('scripts', function() {
 		.pipe(rename('./main.js'))
 		.pipe(plumber())
 		.pipe(uglify())
-		.pipe(gulp.dest('./scripts'))
-		.pipe(notify({message: 'Script compilation is complete!', onLast: true}));
+		.pipe(gulp.dest('./scripts'));
 });
 
 
@@ -112,4 +111,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch', 'icons', 'browser-sync']);
+gulp.task('default', ['lint', 'sass', 'scripts', 'watch', 'icons']);
