@@ -10,12 +10,11 @@ body {
     background: #1E4998;
     color: $primary_color;
     text-decoration: none;
-    line-height: 1.6em;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 p {
-    font-size: 1rem;
-
     @media screen and (min-width: 600px) {
         font-size: 1.25rem;
     }
